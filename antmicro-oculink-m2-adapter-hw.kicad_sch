@@ -4794,16 +4794,6 @@
 		)
 		(uuid "4d58d240-ef8c-4b5b-aa29-7bbfefc34f11")
 	)
-	(label "PCIe_{x4}.RX2-"
-		(at 97.79 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e6d3907-60ff-41b1-bfea-177af3bd333d")
-	)
 	(label "PCIe_{x4}.RX3-"
 		(at 187.96 113.03 0)
 		(effects
@@ -4823,16 +4813,6 @@
 			(justify right bottom)
 		)
 		(uuid "58198dee-5f4f-484e-a5a9-c61d30e577a8")
-	)
-	(label "PCIe_{x4}.RX2+"
-		(at 97.79 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5da7fa10-6be9-47aa-b4bb-532a4e085226")
 	)
 	(label "PCIe_{REF0}_R.CK-"
 		(at 227.33 72.39 0)
@@ -5003,6 +4983,26 @@
 			(justify left bottom)
 		)
 		(uuid "c65e533d-26d4-48b0-bac4-3d90e0757c7f")
+	)
+	(label "PCIe_{x4}.RX2-"
+		(at 97.79 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c78b0231-840f-46a1-82b1-55e25298b360")
+	)
+	(label "PCIe_{x4}.RX2+"
+		(at 97.79 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caa48a6b-0dcf-4246-85a7-9d65e8a69667")
 	)
 	(label "PCIe_{x4}.TX2+"
 		(at 187.96 133.35 0)
