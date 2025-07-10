@@ -3092,16 +3092,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Wrong connector \nfix netclass naming\n\n"
-		(exclude_from_sim no)
-		(at 298.958 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "089f4fc8-7d3e-4733-ae87-28421fda8b42")
-	)
 	(junction
 		(at 195.58 53.34)
 		(diameter 0)
