@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.15,
+          "height": 0.55,
+          "width": 0.55
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.16
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -63,7 +63,44 @@
           "width": 0.185
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|146100000|53050000|6d286110-cb7c-469a-b6ea-0fc986aceab2|0c4806a7-7262-4d6f-9be3-fac0d25752f9",
+          ""
+        ],
+        [
+          "clearance|146100000|53050000|6d286110-cb7c-469a-b6ea-0fc986aceab2|811a9f6d-6344-4456-817b-7217d56b5d74",
+          ""
+        ],
+        [
+          "clearance|147037574|52863505|f6ee8ce7-70f6-4de2-b006-5e6130527cf1|0400de5f-0095-46d4-afc4-b2e444c6ee4b",
+          ""
+        ],
+        [
+          "clearance|147037574|52863505|f6ee8ce7-70f6-4de2-b006-5e6130527cf1|0c4806a7-7262-4d6f-9be3-fac0d25752f9",
+          ""
+        ],
+        [
+          "clearance|147037574|52863505|f6ee8ce7-70f6-4de2-b006-5e6130527cf1|811a9f6d-6344-4456-817b-7217d56b5d74",
+          ""
+        ],
+        [
+          "clearance|147832412|52332412|dfcbf637-5a93-4a06-ac8a-03e412403390|0400de5f-0095-46d4-afc4-b2e444c6ee4b",
+          ""
+        ],
+        [
+          "clearance|147832412|52332412|dfcbf637-5a93-4a06-ac8a-03e412403390|0c4806a7-7262-4d6f-9be3-fac0d25752f9",
+          ""
+        ],
+        [
+          "clearance|147832412|52332412|dfcbf637-5a93-4a06-ac8a-03e412403390|811a9f6d-6344-4456-817b-7217d56b5d74",
+          ""
+        ],
+        [
+          "copper_edge_clearance|140718246|127252745|fd4acc17-7307-4266-8dee-eebe5f4c7916|925b2523-a1cc-483a-b0c3-1e41cbe6257c",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -71,7 +108,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "ignore",
+        "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
@@ -230,8 +267,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
-          "drill": 0.1
+          "diameter": 0.55,
+          "drill": 0.15
         }
       ],
       "zones_allow_external_fillets": false
@@ -483,7 +520,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
