@@ -18224,6 +18224,7 @@
 		)
 	)
 	(footprint "antmicro-footprints:antmicro-logo_scaled_12mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "4fffe900-bfea-4f57-adb1-f579ff9baa3f")
 		(at 149.49 77.74)
@@ -18231,7 +18232,7 @@
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7c57bf84-60e8-4bec-91cd-cc6612c727b1")
+			(uuid "b8f60f7d-5023-4f9e-8227-e81d9489eb61")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -18244,7 +18245,7 @@
 			(at 0 2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "df3631d0-d523-4553-8206-a859dc0199ed")
+			(uuid "7c33cfd1-283e-4015-b90a-7048a3dd9eec")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -18257,7 +18258,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20185f28-95fb-49d0-a3cd-622cf2b68dac")
+			(uuid "8a797f63-be68-4ba8-bac3-1ef3a6559e10")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18269,7 +18270,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ca9f5fa-490f-4605-9ee8-5d247a436ed1")
+			(uuid "c85b9f9f-dc4f-4ee7-8989-fb055e16a3c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19445,6 +19446,7 @@
 		)
 	)
 	(footprint "antmicro-footprints:OSHW-Logo_5.7x6mm_Mask"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "aa263684-47c3-4837-b966-fcb6967edde3")
 		(at 139.43 78.06)
@@ -21073,6 +21075,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "antmicro-footprints:OSHW-Logo_5.7x6mm_Copper"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "feb05e20-d868-4e90-b98a-b45bde3c1e0e")
 		(at 139.43 78.06)
@@ -22207,7 +22210,7 @@
 		(uuid "f9bfd153-4877-47c6-a03a-dfc015c02697")
 	)
 	(gr_text "${TITLE}"
-		(at 150.15 80.2 0)
+		(at 149.789642 80.2 0)
 		(layer "F.Cu")
 		(uuid "16721270-387f-447d-a762-376c3936303d")
 		(effects
@@ -22217,8 +22220,19 @@
 			)
 		)
 	)
+	(gr_text "PCB SHA: ########"
+		(at 150.15 82.075 0)
+		(layer "F.Cu")
+		(uuid "52a16d30-7e97-4bb2-a978-5ae4172b1740")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
 	(gr_text "REV. ${REVISION} ${CURRENT_DATE}"
-		(at 149.8 81.2 0)
+		(at 150.15 81.2 0)
 		(layer "F.Cu")
 		(uuid "6cd933d5-0486-40be-b408-107ed223feb3")
 		(effects
@@ -22229,7 +22243,7 @@
 		)
 	)
 	(gr_text "${TITLE}"
-		(at 150.15 80.2 0)
+		(at 149.789642 80.2 0)
 		(layer "F.Mask")
 		(uuid "06556173-ffed-4031-9924-a6c8c4b07c0c")
 		(effects
@@ -22239,8 +22253,19 @@
 			)
 		)
 	)
+	(gr_text "PCB SHA: ########"
+		(at 150.15 82.075 0)
+		(layer "F.Mask")
+		(uuid "4b0124ae-6519-45aa-b919-b6173ff11d20")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
 	(gr_text "REV. ${REVISION} ${CURRENT_DATE}"
-		(at 149.8 81.2 0)
+		(at 150.15 81.2 0)
 		(layer "F.Mask")
 		(uuid "91153d07-c26c-4be5-a8bd-27e08e6f0018")
 		(effects
@@ -23258,7 +23283,7 @@
 		(uuid "2184087e-ad79-463d-84e2-4c31deb5c5b1")
 	)
 	(via
-		(at 156.3 80.329343)
+		(at 155.939642 80.329343)
 		(size 0.55)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
@@ -34223,15 +34248,22 @@
 	)
 	(group ""
 		(uuid "1dc28d4f-082f-4ea4-b2e3-79a42624fc79")
+		(locked yes)
 		(members "aa263684-47c3-4837-b966-fcb6967edde3" "feb05e20-d868-4e90-b98a-b45bde3c1e0e")
 	)
 	(group ""
-		(uuid "c94c66b6-4cd3-4964-83de-12219ca29ace")
-		(members "06556173-ffed-4031-9924-a6c8c4b07c0c" "16721270-387f-447d-a762-376c3936303d")
+		(uuid "6e699ea2-104e-4857-9b66-9de19003b7f8")
+		(members "4b0124ae-6519-45aa-b919-b6173ff11d20" "52a16d30-7e97-4bb2-a978-5ae4172b1740")
 	)
 	(group ""
 		(uuid "d523380a-dce2-421e-9fb8-cc741a12304a")
 		(members "6cd933d5-0486-40be-b408-107ed223feb3" "91153d07-c26c-4be5-a8bd-27e08e6f0018")
+	)
+	(group ""
+		(uuid "c9433911-7da9-4dce-8bfb-a94c8dba72f8")
+		(members "06556173-ffed-4031-9924-a6c8c4b07c0c" "16721270-387f-447d-a762-376c3936303d"
+			"21a3c8e5-917b-4373-a6b4-ff6b458d63ec"
+		)
 	)
 	(generated
 		(uuid "0c108482-9f0e-4081-8038-02a65d89f9c7")
