@@ -1,7 +1,7 @@
 # M.2 to OCulink adapter
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
-
+![](img/m2-oculink-adapter-render.png)
 ## Overview
 
 This board is an M.2 to OCuLink adapter that passively connects all x4 lanes available to the M.2 connector to the OCulink socket.
