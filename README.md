@@ -4,7 +4,7 @@ Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This board is an M.2 to OCuLink adapter that passively connects all x4 lanes available to the M.2 connector to the OCulink socket
+This board is an M.2 to OCuLink adapter that passively connects all x4 lanes available to the M.2 connector to the OCulink socket.
 
 ## Key features
 
@@ -14,3 +14,7 @@ This board is an M.2 to OCuLink adapter that passively connects all x4 lanes ava
 - 2 connectors: M.2 (Key M) and OCulink (Amphenol_G14A421211112HR)
 - 0R resistor on 3.3V rail
 - Compatible with 22mm x (42/60/80)mm form factor
+
+## License
+
+This project is licensed under the [Apache-2.0](LICENSE) license.
