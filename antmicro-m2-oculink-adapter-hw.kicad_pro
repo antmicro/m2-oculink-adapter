@@ -58,14 +58,22 @@
           "width": 0.0
         },
         {
-          "gap": 0.145,
-          "via_gap": 0.145,
-          "width": 0.185
+          "gap": 0.11,
+          "via_gap": 0.111,
+          "width": 0.22
         }
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|140718246|127252745|fd4acc17-7307-4266-8dee-eebe5f4c7916|925b2523-a1cc-483a-b0c3-1e41cbe6257c",
+          "courtyards_overlap|135915000|78485000|aa263684-47c3-4837-b966-fcb6967edde3|feb05e20-d868-4e90-b98a-b45bde3c1e0e",
+          ""
+        ],
+        [
+          "courtyards_overlap|136743000|78485000|4fffe900-bfea-4f57-adb1-f579ff9baa3f|aa263684-47c3-4837-b966-fcb6967edde3",
+          ""
+        ],
+        [
+          "courtyards_overlap|136743000|78485000|4fffe900-bfea-4f57-adb1-f579ff9baa3f|feb05e20-d868-4e90-b98a-b45bde3c1e0e",
           ""
         ]
       ],
@@ -76,7 +84,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "warning",
+        "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
@@ -88,7 +96,7 @@
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_to_hole": "error",
         "holes_co_located": "error",
@@ -98,11 +106,11 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "warning",
+        "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
@@ -133,9 +141,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.125,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.125,
         "min_hole_to_hole": 0.25,
@@ -147,8 +155,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.1,
         "min_track_width": 0.125,
-        "min_via_annular_width": 0.125,
-        "min_via_diameter": 0.45,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -235,8 +243,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.55,
-          "drill": 0.15
+          "diameter": 0.5,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -500,15 +508,15 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.45,
-        "via_drill": 0.1,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.145,
-        "diff_pair_gap": 0.145,
-        "diff_pair_width": 0.185,
+        "clearance": 0.11,
+        "diff_pair_gap": 0.11,
+        "diff_pair_width": 0.22,
         "line_style": 0,
         "microvia_diameter": 0.45,
         "microvia_drill": 0.1,
@@ -516,9 +524,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.185,
-        "via_diameter": 0.45,
-        "via_drill": 0.1,
+        "track_width": 0.22,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
