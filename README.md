@@ -6,20 +6,17 @@ Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This board is an M.2 to OCuLink adapter that passively connects all x4 PCIe lanes available to the M.2 connector to the OCulink socket.
+This project includes PCB design files that define a simple M.2 (key-M) to OCuLink adapter that can be used for connecting PCIe lanes from on-board M.2 slots with remote PCIe devices via OCuLink cables. 
+This board has been designed to be compliant with Antmicro [Jetson Orin Baseboard](https://github.com/antmicro/jetson-orin-baseboard) if you plan to use it with other pieces of hardware please inspect the schematics and connection diagrams beforehand. 
+The PCB design files were prepared in KiCad 9.x.
 
 ## Key features
 
 - Compatible with the Jetson Orin Baseboard
 - Exposes 4 lanes of PCIe via an OCuLink connector
 - M.2 Key M
-- OCulink (Amphenol G14A421211112HR)
-- Compatible with  2280, 2260, 2242mm mounting studs
-
-## Related boards:
-* [Jetson orin baseboard](https://openhardware.antmicro.com/boards/jetson-orin-baseboard).
-* [COM Express 7 baseboard](https://openhardware.antmicro.com/boards/kria-k26-devboard)
-* [CM4 Baseboard](https://openhardware.antmicro.com/boards/cm4-baseboard)
+- OCulink connector (Amphenol G14A421211112HR)
+- Compatible with  2280, 2260, 2242 M.2 mechanical form factors
 
 ## License
 
