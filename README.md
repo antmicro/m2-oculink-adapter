@@ -1,4 +1,4 @@
-# M.2 to OCulink adapter
+# M.2 to OCuLink adapter
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
