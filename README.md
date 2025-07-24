@@ -1,4 +1,4 @@
-# M.2 to OCuLink adapter
+# M.2 to OCuLink Adapter
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
@@ -6,7 +6,7 @@ Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This project includes PCB design files that define a simple M.2 (key-M) to OCuLink Adapter.
+This project includes PCB design files that define a simple M.2 (key-M) to OCuLink adapter.
 It can be used for connecting the on-board PCIe M.2 slots with remote PCIe devices via OCuLink cables. 
 This board has been designed to be compatible with Antmicro's [Jetson Orin Baseboard](https://github.com/antmicro/jetson-orin-baseboard).
 
