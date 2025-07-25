@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(general
-		(thickness 0.876)
+		(thickness 0.761)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -49,18 +49,20 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
 				(type "copper")
-				(thickness 0.018)
+				(thickness 0.035)
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
-				(thickness 0.12)
-				(material "FR4")
+				(color "FR4 natural")
+				(thickness 0.1855)
+				(material "7628")
 				(epsilon_r 4.2)
-				(loss_tangent 0.02)
+				(loss_tangent 0)
 			)
 			(layer "In1.Cu"
 				(type "copper")
@@ -68,9 +70,10 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(thickness 0.51)
+				(color "FR4 natural")
+				(thickness 0.23)
 				(material "FR4")
-				(epsilon_r 4.5)
+				(epsilon_r 4.2)
 				(loss_tangent 0.02)
 			)
 			(layer "In2.Cu"
@@ -79,17 +82,19 @@
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
-				(thickness 0.12)
-				(material "FR4")
+				(color "FR4 natural")
+				(thickness 0.1855)
+				(material "7628")
 				(epsilon_r 4.2)
-				(loss_tangent 0.02)
+				(loss_tangent 0)
 			)
 			(layer "B.Cu"
 				(type "copper")
-				(thickness 0.018)
+				(thickness 0.035)
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
