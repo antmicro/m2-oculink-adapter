@@ -21876,7 +21876,7 @@
 		)
 	)
 	(gr_text "PCB SHA: ########"
-		(at 137.56 78.01 270)
+		(at 137.56 78.01 90)
 		(layer "B.SilkS")
 		(uuid "52a16d30-7e97-4bb2-a978-5ae4172b1740")
 		(effects
