@@ -67,6 +67,14 @@
         [
           "courtyards_overlap|136320000|79460000|aa263684-47c3-4837-b966-fcb6967edde3|feb05e20-d868-4e90-b98a-b45bde3c1e0e",
           ""
+        ],
+        [
+          "lib_footprint_mismatch|146017041|98247904|4c14bbe9-1670-4160-9f17-0426366623a6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|146150000|128112500|47cb8461-f2b4-4f40-8ebc-094ded944324|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -86,7 +94,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "error",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
@@ -98,11 +106,11 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_mismatch": "error",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "error",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
