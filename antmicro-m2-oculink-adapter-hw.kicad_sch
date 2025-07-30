@@ -12,6 +12,219 @@
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
+		(symbol "Capacitors0402:C_100n_16V_X7R_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_100n_16V_X7R_0402"
+				(at 15.24 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+				(at 15.24 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+				(at 15.24 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±5%, X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "C0402C104J4RAC7411"
+				(at 15.24 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "100n"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" "16V"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 15.24 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "KEMET"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SMT, CAPACITOR, PASSIVE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_100n_16V_X7R_0402_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_100n_16V_X7R_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EdgeConnectors:PCB-Edge_M.2_Key-M"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -2826,6 +3039,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroResistorsmisc:R_0R_0201"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_0R_0201"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:R_0201"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Chip Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CR0201-FX-0R00GLF"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "0R"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0603, SMT, RESISTOR, PASSIVE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0R_0201_0_1"
+				(rectangle
+					(start 0.635 0.889)
+					(end 4.445 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0R_0201_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicropower:GND"
 			(power)
 			(pin_numbers
@@ -3093,10 +3494,28 @@
 		)
 	)
 	(junction
+		(at 231.14 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04215dc6-344a-4a9a-b47b-7593d34467ac")
+	)
+	(junction
+		(at 116.84 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d87e549-218c-43d2-a648-e8cbc2adb612")
+	)
+	(junction
 		(at 195.58 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43bce04a-67d4-4184-8699-703b67825fb0")
+	)
+	(junction
+		(at 125.73 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47a2f3d5-3075-4412-bc1b-93ebf74ae207")
 	)
 	(junction
 		(at 40.64 87.63)
@@ -3111,10 +3530,28 @@
 		(uuid "5c4cd28b-3029-4252-8b77-13fa17d9429d")
 	)
 	(junction
+		(at 116.84 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e945c5e-cbf0-456b-a74f-2a50497a4588")
+	)
+	(junction
+		(at 222.25 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8652d99f-42a9-4cfb-ab5c-7d831f41d73e")
+	)
+	(junction
 		(at 176.53 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e9ccebb-52ba-4764-b770-332dec5878e1")
+	)
+	(junction
+		(at 222.25 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba0f6743-2c21-4450-8070-3b7717f6fe1d")
 	)
 	(junction
 		(at 48.26 92.71)
@@ -3129,16 +3566,12 @@
 		(uuid "ebb22f34-22ec-4c3f-aece-2e71cab8fb1e")
 	)
 	(no_connect
-		(at 250.19 52.07)
-		(uuid "0b887877-3f29-4215-b359-020245962120")
+		(at 250.19 64.77)
+		(uuid "3ee7b71a-aea8-4275-a01f-ad67557a54f9")
 	)
 	(no_connect
 		(at 55.88 82.55)
 		(uuid "577d01eb-e124-4f5b-9453-ebf5328f8a48")
-	)
-	(no_connect
-		(at 250.19 64.77)
-		(uuid "7b800075-f10e-41f3-a246-016503e7a001")
 	)
 	(no_connect
 		(at 250.19 62.23)
@@ -3510,6 +3943,16 @@
 		)
 		(uuid "03550b44-7a07-4869-8f14-c86aebf4eb3e")
 	)
+	(wire
+		(pts
+			(xy 222.25 60.96) (xy 222.25 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057735db-a453-402c-9800-dc12a26d0b94")
+	)
 	(bus
 		(pts
 			(xy 185.42 86.36) (xy 185.42 88.9)
@@ -3572,7 +4015,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 53.34) (xy 195.58 53.34)
+			(xy 166.37 53.34) (xy 175.26 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3592,16 +4035,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 53.34) (xy 161.29 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c77877c-d156-427f-8342-e5f125388836")
-	)
-	(wire
-		(pts
 			(xy 93.98 118.11) (xy 118.11 118.11)
 		)
 		(stroke
@@ -3609,6 +4042,16 @@
 			(type default)
 		)
 		(uuid "1e6321b9-94c9-4290-964d-791f2cc2f4b9")
+	)
+	(wire
+		(pts
+			(xy 222.25 53.34) (xy 231.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212238e4-2d3f-4cc8-9306-8269986ad3ea")
 	)
 	(wire
 		(pts
@@ -3632,7 +4075,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 82.55) (xy 227.33 82.55)
+			(xy 214.63 82.55) (xy 209.55 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3649,6 +4092,16 @@
 			(type default)
 		)
 		(uuid "25ca18d9-e32b-4c6c-b208-4b9c933dfb19")
+	)
+	(wire
+		(pts
+			(xy 231.14 60.96) (xy 222.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ba29de-3b00-4624-98be-e7979e523baf")
 	)
 	(wire
 		(pts
@@ -3702,6 +4155,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 52.07) (xy 246.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3927fda4-af40-43c7-9d51-a38743ba7ad7")
+	)
+	(wire
+		(pts
 			(xy 93.98 130.81) (xy 118.11 130.81)
 		)
 		(stroke
@@ -3732,6 +4195,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 53.34) (xy 231.14 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d0e763b-0d41-4985-b133-d8d4850b1858")
+	)
+	(wire
+		(pts
 			(xy 186.69 140.97) (xy 250.19 140.97)
 		)
 		(stroke
@@ -3739,6 +4212,16 @@
 			(type default)
 		)
 		(uuid "42df51dd-53fb-429f-98fb-c51912373be6")
+	)
+	(wire
+		(pts
+			(xy 222.25 53.34) (xy 222.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451bbeee-0284-4de0-821d-ad68e4aa0998")
 	)
 	(wire
 		(pts
@@ -3822,7 +4305,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 82.55) (xy 237.49 82.55)
+			(xy 234.95 82.55) (xy 250.19 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3872,6 +4355,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 53.34) (xy 195.58 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f37543-e3ca-43f2-8db6-efa58ac326a5")
+	)
+	(wire
+		(pts
 			(xy 93.98 120.65) (xy 118.11 120.65)
 		)
 		(stroke
@@ -3889,6 +4382,16 @@
 			(type default)
 		)
 		(uuid "595d8961-8e52-4227-862e-80400bcd5e27")
+	)
+	(wire
+		(pts
+			(xy 250.19 52.07) (xy 246.38 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a45ce64-7e8a-4316-a569-866e5f8e23e2")
 	)
 	(bus
 		(pts
@@ -3922,13 +4425,23 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 77.47) (xy 227.33 77.47)
+			(xy 229.87 77.47) (xy 224.79 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "631c12c7-1e92-444c-a32c-f62d9d7dc7b3")
+	)
+	(wire
+		(pts
+			(xy 116.84 53.34) (xy 125.73 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6408b001-9d12-4ea9-bccd-2f32deb47b05")
 	)
 	(bus
 		(pts
@@ -3939,6 +4452,16 @@
 			(type default)
 		)
 		(uuid "6483b865-0638-4310-bb3d-f50c907a0dbc")
+	)
+	(wire
+		(pts
+			(xy 107.95 55.88) (xy 107.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66085910-70e5-4c8e-a1b7-a8a4ddcb6215")
 	)
 	(wire
 		(pts
@@ -3992,7 +4515,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 77.47) (xy 237.49 77.47)
+			(xy 250.19 77.47) (xy 234.95 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4032,6 +4555,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 59.69) (xy 125.73 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a5bc238-cbb0-4ffe-90e3-520c552d135b")
+	)
+	(wire
+		(pts
 			(xy 207.01 69.85) (xy 186.69 69.85)
 		)
 		(stroke
@@ -4049,6 +4582,26 @@
 			(type default)
 		)
 		(uuid "85bdda9a-90af-4f20-9dd7-58b46c06d39b")
+	)
+	(wire
+		(pts
+			(xy 229.87 82.55) (xy 219.71 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875048cc-c7e7-4038-9fa6-39a0e2a9e056")
+	)
+	(wire
+		(pts
+			(xy 116.84 59.69) (xy 116.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d82da23-4a96-4fa1-84bc-d8f0e281ab49")
 	)
 	(wire
 		(pts
@@ -4082,6 +4635,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 53.34) (xy 161.29 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f38968-9091-4fd3-a6ea-4aaa7bf496a0")
+	)
+	(wire
+		(pts
 			(xy 93.98 127) (xy 118.11 127)
 		)
 		(stroke
@@ -4109,16 +4672,6 @@
 			(type default)
 		)
 		(uuid "9cc11f57-d60a-434e-843c-0590fa3ab9cc")
-	)
-	(wire
-		(pts
-			(xy 107.95 81.28) (xy 107.95 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d03460c-4f78-49bd-9a85-00537788b20c")
 	)
 	(wire
 		(pts
@@ -4159,6 +4712,16 @@
 			(type default)
 		)
 		(uuid "a7eb0461-b210-45a1-b7d0-f096435d969f")
+	)
+	(wire
+		(pts
+			(xy 231.14 53.34) (xy 242.57 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a845e52a-e2e7-42e7-bb82-52fb8c8446d9")
 	)
 	(bus
 		(pts
@@ -4262,7 +4825,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 80.01) (xy 250.19 80.01)
+			(xy 210.82 80.01) (xy 250.19 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4339,6 +4902,16 @@
 			(type default)
 		)
 		(uuid "c2a85f53-e661-4ab7-a664-fbc6b956da75")
+	)
+	(wire
+		(pts
+			(xy 231.14 60.96) (xy 231.14 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c914db-baaa-49fc-9073-5d1abe074181")
 	)
 	(wire
 		(pts
@@ -4439,6 +5012,16 @@
 			(type default)
 		)
 		(uuid "dc093d39-6c58-4101-a4ba-4bedbee2d1ab")
+	)
+	(wire
+		(pts
+			(xy 116.84 53.34) (xy 110.49 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf9d471-8696-4a9a-a0b6-837fc60737d3")
 	)
 	(bus
 		(pts
@@ -4562,13 +5145,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 53.34) (xy 242.57 53.34)
+			(xy 195.58 53.34) (xy 222.25 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f4bda65f-8400-4b61-ab15-84de4b54bfa9")
+	)
+	(wire
+		(pts
+			(xy 125.73 59.69) (xy 125.73 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f84599-972a-47d0-8889-d1725ef31d11")
 	)
 	(wire
 		(pts
@@ -4721,7 +5314,7 @@
 		(uuid "302c8167-e314-42ac-be09-540298e7c2e6")
 	)
 	(label "~{WAKEC}"
-		(at 241.3 82.55 0)
+		(at 240.03 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4801,7 +5394,7 @@
 		(uuid "52b7e50f-5fc6-48e8-a24a-64f7fbacc6ca")
 	)
 	(label "~{WAKE}"
-		(at 227.33 82.55 180)
+		(at 209.55 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4891,7 +5484,7 @@
 		(uuid "92dc173b-a6ba-48ca-ab20-b6a09aa75907")
 	)
 	(label "~{PERST}"
-		(at 227.33 77.47 180)
+		(at 224.79 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5081,37 +5674,27 @@
 		(uuid "f990ae6e-3aa7-4b63-bc02-768568b5b29b")
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 212.09 69.85 0)
-		(mirror y)
+		(lib_id "Capacitors0402:C_100n_16V_X7R_0402")
+		(at 231.14 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0407b87d-ac29-447a-8ef3-b77e4609431d")
-		(property "Reference" "R3"
-			(at 213.868 68.58 0)
+		(fields_autoplaced yes)
+		(uuid "07a5c988-5153-49f4-aa53-99e55584177b")
+		(property "Reference" "C1"
+			(at 233.68 55.8736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "R_0R_0402"
-			(at 191.77 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 191.77 85.09 0)
+		(property "Value" "C_100n_16V_X7R_0402"
+			(at 254 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,8 +5704,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 191.77 87.63 0)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 256.54 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,17 +5715,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 212.09 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 191.77 90.17 0)
+		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+			(at 259.08 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,8 +5726,60 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
-			(at 191.77 92.71 0)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±5%, X7R"
+			(at 231.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104J4RAC7411"
+			(at 261.62 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 233.68 58.4136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 241.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 243.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 246.38 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5164,7 +5790,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 191.77 95.25 0)
+			(at 248.92 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5175,7 +5801,432 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 191.77 97.79 0)
+			(at 251.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f9b915e-4981-4499-a023-62ddb9ac24a7")
+		)
+		(pin "1"
+			(uuid "16793fd5-3966-4a36-8336-60502f68c626")
+		)
+		(instances
+			(project ""
+				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors0402:C_100n_16V_X7R_0402")
+		(at 116.84 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d7a5dce-1f05-4093-a2ff-43a377a7e107")
+		(property "Reference" "C2"
+			(at 119.38 54.6036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_100n_16V_X7R_0402"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 142.24 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±5%, X7R"
+			(at 116.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104J4RAC7411"
+			(at 147.32 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 119.38 57.1436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 127 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 132.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 134.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 137.16 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1faf5c1-afbe-4731-a623-10c0a96da7b0")
+		)
+		(pin "1"
+			(uuid "82ff5d0e-99b0-4170-b37d-a22b43ee5df7")
+		)
+		(instances
+			(project "antmicro-m2-oculink-adapter-hw"
+				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors0402:C_100n_16V_X7R_0402")
+		(at 125.73 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1da8c584-603c-45b5-a6fd-1b4e1b143e3d")
+		(property "Reference" "C4"
+			(at 128.27 54.6036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_100n_16V_X7R_0402"
+			(at 148.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+			(at 153.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±5%, X7R"
+			(at 125.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104J4RAC7411"
+			(at 156.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 128.27 57.1436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 135.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 140.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 143.51 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 146.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14a0003c-2d96-45bd-bbe4-3a811cdc75e3")
+		)
+		(pin "1"
+			(uuid "3ac8c750-1c74-4e7c-bd61-088eeebc660a")
+		)
+		(instances
+			(project "antmicro-m2-oculink-adapter-hw"
+				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistorsmisc:R_0R_0201")
+		(at 229.87 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38058f6a-dc9b-4cbe-ba2e-7f3381519d88")
+		(property "Reference" "R5"
+			(at 229.108 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0201"
+			(at 250.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0201"
+			(at 250.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 250.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor"
+			(at 229.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0201-FX-0R00GLF"
+			(at 250.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 250.19 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 250.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 250.19 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5186,7 +6237,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 205.994 68.58 0)
+			(at 235.458 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,37 +6245,26 @@
 				)
 			)
 		)
-		(property "Tolerance" "~"
-			(at 191.77 80.01 0)
+		(property "Tolerance" "1%"
+			(at 250.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "1A"
-			(at 191.77 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "85f10604-59c8-41b3-afa4-cab8bc944fd9")
+			(uuid "fc2f9ae3-22df-4e0c-a4fc-e45c1fd3ac1f")
 		)
 		(pin "2"
-			(uuid "9a4b5063-4b9c-4e6e-aef8-e117f589d278")
+			(uuid "c33b8cc4-eeac-4649-9363-97494026c610")
 		)
 		(instances
 			(project "antmicro-m2-oculink-adapter-hw"
 				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5232,15 +6272,15 @@
 	)
 	(symbol
 		(lib_id "TestPoints:TP_1.5mm_SMD")
-		(at 214.63 80.01 90)
+		(at 246.38 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "578c2795-d727-4005-a692-6d179ad71f4b")
-		(property "Reference" "TP3"
-			(at 215.392 76.708 90)
+		(uuid "3d7df09a-508d-4394-aacb-f518bd63beac")
+		(property "Reference" "TP4"
+			(at 247.142 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +6290,7 @@
 			)
 		)
 		(property "Value" "TP_1.5mm_SMD"
-			(at 222.25 64.77 0)
+			(at 254 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,7 +6301,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_1.5mm"
-			(at 224.79 64.77 0)
+			(at 256.54 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +6312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 62.23 0)
+			(at 259.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5283,7 +6323,7 @@
 			)
 		)
 		(property "Description" "test point, SMT"
-			(at 214.63 80.01 0)
+			(at 246.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,7 +6332,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 214.63 80.01 0)
+			(at 246.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +6341,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 214.63 80.01 0)
+			(at 246.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +6350,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 229.87 64.77 0)
+			(at 261.62 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,7 +6361,120 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 232.41 64.77 0)
+			(at 264.16 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20744176-2932-4ed5-b655-3674bd1e845f")
+		)
+		(instances
+			(project "antmicro-m2-oculink-adapter-hw"
+				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(at 210.82 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "578c2795-d727-4005-a692-6d179ad71f4b")
+		(property "Reference" "TP3"
+			(at 211.582 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_1.5mm_SMD"
+			(at 218.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 220.98 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point, SMT"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 226.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 228.6 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,156 +6585,6 @@
 			(project "antmicro-m2-oculink-adapter-hw"
 				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 237.49 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "601b95f0-8005-4ebd-9250-e45e23675459")
-		(property "Reference" "R5"
-			(at 239.268 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 217.17 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 217.17 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 217.17 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 237.49 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 217.17 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 217.17 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 217.17 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 217.17 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 231.394 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" "~"
-			(at 217.17 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "1A"
-			(at 217.17 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e144feb1-9562-4c76-bcda-4868bf1cc58d")
-		)
-		(pin "2"
-			(uuid "e0f861bb-5005-4c2e-8d63-66243e701e84")
-		)
-		(instances
-			(project "antmicro-m2-oculink-adapter-hw"
-				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5878,6 +6881,144 @@
 			(project ""
 				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistorsmisc:R_0R_0201")
+		(at 207.01 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f8ee6d0-083f-426a-a454-524ce9f207b6")
+		(property "Reference" "R4"
+			(at 206.248 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0201"
+			(at 227.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0201"
+			(at 227.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 227.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor"
+			(at 207.01 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0201-FX-0R00GLF"
+			(at 227.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 227.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 227.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 212.598 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 227.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78d1b805-42c8-4ba4-ace4-70bf601c3af9")
+		)
+		(pin "2"
+			(uuid "09752be8-a95d-4815-8a26-9a1dc534c659")
+		)
+		(instances
+			(project "antmicro-m2-oculink-adapter-hw"
+				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6283,7 +7424,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 237.49 82.55 0)
+		(at 219.71 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6292,7 +7433,7 @@
 		(dnp no)
 		(uuid "97f36f15-e1c2-499b-9a31-965b90a3a5fb")
 		(property "Reference" "R6"
-			(at 239.268 81.28 0)
+			(at 221.488 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6301,7 +7442,7 @@
 			)
 		)
 		(property "Value" "R_0R_0402"
-			(at 217.17 95.25 0)
+			(at 199.39 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,7 +7453,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 217.17 97.79 0)
+			(at 199.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +7464,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 217.17 100.33 0)
+			(at 199.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +7475,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 237.49 82.55 0)
+			(at 219.71 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,7 +7484,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 217.17 102.87 0)
+			(at 199.39 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +7495,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 217.17 105.41 0)
+			(at 199.39 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +7506,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 217.17 107.95 0)
+			(at 199.39 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,7 +7517,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 217.17 110.49 0)
+			(at 199.39 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6387,7 +7528,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 231.394 81.28 0)
+			(at 213.614 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,7 +7537,7 @@
 			)
 		)
 		(property "Tolerance" "~"
-			(at 217.17 92.71 0)
+			(at 199.39 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6406,7 +7547,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 217.17 113.03 0)
+			(at 199.39 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,37 +7573,27 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 212.09 72.39 0)
-		(mirror y)
+		(lib_id "Capacitors0402:C_100n_16V_X7R_0402")
+		(at 222.25 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9b38906d-b74f-467d-8cdf-69ff64275bdb")
-		(property "Reference" "R4"
-			(at 213.868 71.12 0)
+		(fields_autoplaced yes)
+		(uuid "9a85ea9c-1eca-47e3-928b-7e702c02dec0")
+		(property "Reference" "C3"
+			(at 224.79 55.8736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "R_0R_0402"
-			(at 191.77 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 191.77 87.63 0)
+		(property "Value" "C_100n_16V_X7R_0402"
+			(at 245.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6472,8 +7603,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 191.77 90.17 0)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 247.65 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,17 +7614,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 212.09 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 191.77 92.71 0)
+		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+			(at 250.19 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,8 +7625,60 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
-			(at 191.77 95.25 0)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±5%, X7R"
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104J4RAC7411"
+			(at 252.73 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 224.79 58.4136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 232.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 234.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6515,7 +7689,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 191.77 97.79 0)
+			(at 240.03 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,7 +7700,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 191.77 100.33 0)
+			(at 242.57 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6536,8 +7710,43 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "0R"
-			(at 205.994 71.12 0)
+		(pin "2"
+			(uuid "0b868260-d2d5-464c-b024-15a76807baac")
+		)
+		(pin "1"
+			(uuid "61c7c219-bee0-448f-900f-9dcbb659014e")
+		)
+		(instances
+			(project "antmicro-m2-oculink-adapter-hw"
+				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 116.84 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e477549-de3f-44e4-a73a-0e56d5916b0e")
+		(property "Reference" "#PWR06"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,18 +7754,50 @@
 				)
 			)
 		)
-		(property "Tolerance" "~"
-			(at 191.77 82.55 0)
+		(property "Footprint" ""
+			(at 125.73 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Current" "1A"
-			(at 191.77 102.87 0)
+		(property "Datasheet" ""
+			(at 125.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 125.73 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,15 +7808,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "669bdbde-d10c-4a19-a815-bca1a443c668")
-		)
-		(pin "2"
-			(uuid "c473ab7f-f8b5-4c26-ba7e-3f89c4c9dc12")
+			(uuid "1c8ac47d-7c3d-4170-87c0-77033208104b")
 		)
 		(instances
 			(project "antmicro-m2-oculink-adapter-hw"
 				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
-					(reference "R4")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6671,6 +7909,144 @@
 			(project "antmicro-m2-oculink-adapter-hw"
 				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistorsmisc:R_0R_0201")
+		(at 207.01 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1a95b48-f871-46fe-b1f6-757e5f0651ad")
+		(property "Reference" "R3"
+			(at 206.248 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0201"
+			(at 227.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0201"
+			(at 227.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 227.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor"
+			(at 207.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0201-FX-0R00GLF"
+			(at 227.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 227.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 227.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 212.598 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 227.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "149232d7-e980-4033-809f-08ebd748e427")
+		)
+		(pin "2"
+			(uuid "17701858-24bd-4288-a343-4bcdf9efc542")
+		)
+		(instances
+			(project "antmicro-m2-oculink-adapter-hw"
+				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6879,6 +8255,400 @@
 			(project "antmicro-m2-oculink-adapter-hw"
 				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 222.25 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d99f9c00-dc72-4baf-9c3f-9fa75a2a5055")
+		(property "Reference" "#PWR05"
+			(at 231.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 231.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 231.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "019636ac-56db-48f3-af54-927581d2609e")
+		)
+		(instances
+			(project "antmicro-m2-oculink-adapter-hw"
+				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors0402:R_0R_0402")
+		(at 175.26 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcc9aa22-6d92-4b46-8e0b-cd736d86bad1")
+		(property "Reference" "R7"
+			(at 177.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 195.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 195.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 195.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 195.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5eab969d-ab67-4f22-966b-3a3800af9679")
+		)
+		(pin "1"
+			(uuid "f8d74f6d-03a7-4f81-820b-5422f61a55c4")
+		)
+		(instances
+			(project "antmicro-m2-oculink-adapter-hw"
+				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 234.95 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddbad4d4-620f-4f9e-81f2-dde896f83d34")
+		(property "Reference" "R9"
+			(at 236.728 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 214.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 214.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 234.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 214.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 214.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 214.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 228.854 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 214.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 214.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcdfc55b-1f5a-4d27-9dc1-bf31a62b6674")
+		)
+		(pin "2"
+			(uuid "4090c25a-b68b-4622-a023-54daf7f5d7fa")
+		)
+		(instances
+			(project "antmicro-m2-oculink-adapter-hw"
+				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
+					(reference "R9")
 					(unit 1)
 				)
 			)
