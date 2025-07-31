@@ -69,19 +69,19 @@
           ""
         ],
         [
-          "courtyards_overlap|146505000|94315000|7ca616a6-a283-4b4f-b5f9-dcc5ec1ff0d3|8a60c2c5-ed15-4a37-9b29-e375b5fa27e6",
+          "courtyards_overlap|146275000|94325000|7ca616a6-a283-4b4f-b5f9-dcc5ec1ff0d3|8a60c2c5-ed15-4a37-9b29-e375b5fa27e6",
           ""
         ],
         [
-          "courtyards_overlap|146505000|94995000|7ca616a6-a283-4b4f-b5f9-dcc5ec1ff0d3|fdb1dcc9-0d94-4d31-af9d-c221d9242106",
+          "courtyards_overlap|146275000|95025000|7ca616a6-a283-4b4f-b5f9-dcc5ec1ff0d3|fdb1dcc9-0d94-4d31-af9d-c221d9242106",
           ""
         ],
         [
-          "courtyards_overlap|146505000|94995000|8a60c2c5-ed15-4a37-9b29-e375b5fa27e6|fdb1dcc9-0d94-4d31-af9d-c221d9242106",
+          "courtyards_overlap|146275000|95025000|8a60c2c5-ed15-4a37-9b29-e375b5fa27e6|fdb1dcc9-0d94-4d31-af9d-c221d9242106",
           ""
         ],
         [
-          "courtyards_overlap|147215000|94315000|477021a0-9647-45d7-a17e-5ebdb906f6e6|fe71ac52-9aba-4c5f-a7bf-c88477ec28cb",
+          "courtyards_overlap|146985000|94325000|477021a0-9647-45d7-a17e-5ebdb906f6e6|fe71ac52-9aba-4c5f-a7bf-c88477ec28cb",
           ""
         ],
         [
@@ -90,6 +90,10 @@
         ],
         [
           "lib_footprint_mismatch|146150000|128112500|47cb8461-f2b4-4f40-8ebc-094ded944324|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "unconnected_items|149330000|91310000|d6b2bc24-752e-471b-8e38-48d682c9b916|0e6a3a9a-9b1b-4935-bbf6-fee4ff09c723",
           ""
         ]
       ],
