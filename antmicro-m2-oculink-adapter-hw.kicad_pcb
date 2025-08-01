@@ -27352,7 +27352,7 @@
 		(uuid "f145fbb3-deed-4805-969e-6a56f784a792")
 		(at 149.35 90.84)
 		(property "Reference" "TP3"
-			(at -0.32 -0.61 0)
+			(at -0.42 -0.62 0)
 			(layer "F.SilkS")
 			(uuid "5d8ca687-3cbc-4f82-b6a3-7339f92ae3d0")
 			(effects
@@ -28052,7 +28052,7 @@
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
 		(property "Reference" "C3"
-			(at 0.48 -1.93 0)
+			(at -0.79 -1.38 270)
 			(layer "B.SilkS")
 			(uuid "ab5be838-2143-4b14-b7a0-664863ebcb10")
 			(effects
@@ -35636,7 +35636,7 @@
 		(descr "Resistor SMD 0201")
 		(tags "resistor SMD 0201")
 		(property "Reference" "R9"
-			(at 2.05 -0.77 0)
+			(at -0.79 0.43 90)
 			(layer "B.SilkS")
 			(uuid "379fbb56-40da-44e3-8d1b-b5d541e89be9")
 			(effects
@@ -37488,7 +37488,7 @@
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
 		(property "Reference" "C4"
-			(at 0.32 0.47 0)
+			(at -0.72 0.69 90)
 			(layer "B.SilkS")
 			(uuid "1e2c12a0-b130-4c91-84c2-37bbb586081c")
 			(effects
@@ -62336,37 +62336,6 @@
 			(pts
 				(xy 156.083565 127.899902) (xy 156.08415 127.900488) (xy 156.08415 130.600414) (xy 156.083564 130.601)
 				(xy 140.629586 130.601) (xy 140.629 130.600414) (xy 140.629 127.885796) (xy 140.629586 127.88521)
-			)
-		)
-	)
-	(zone
-		(net 56)
-		(net_name "Net-(C1-Pad2)")
-		(layer "B.Cu")
-		(uuid "040b87c3-774e-4409-ae03-efda936e05ee")
-		(hatch edge 0.5)
-		(priority 2)
-		(connect_pads yes
-			(clearance 0.16)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 154.4 127.35) (xy 154.4 130.5) (xy 155.65 130.5) (xy 155.65 127.35)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 155.593039 127.369685) (xy 155.638794 127.422489) (xy 155.65 127.474) (xy 155.65 130.2755) (xy 155.630315 130.342539)
-				(xy 155.577511 130.388294) (xy 155.526 130.3995) (xy 154.604743 130.3995) (xy 154.537704 130.379815)
-				(xy 154.491949 130.327011) (xy 154.480743 130.2755) (xy 154.480743 127.474) (xy 154.500428 127.406961)
-				(xy 154.553232 127.361206) (xy 154.604743 127.35) (xy 155.526 127.35)
 			)
 		)
 	)
