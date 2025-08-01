@@ -3227,6 +3227,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroTestPoints:TP_1mm_SMD"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TP_1mm_SMD"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:TP_SMD_1mm"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 17.78 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test point 1mm SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TESTPOINT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP_1mm_SMD_1_1"
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicropower:GND"
 			(power)
 			(pin_numbers
@@ -3563,6 +3704,16 @@
 		)
 		(uuid "68330b03-160c-454a-80f1-e72b7c4cf6e4")
 	)
+	(text "Used as test pads"
+		(exclude_from_sim no)
+		(at 249.428 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "685337d5-c1ab-4ce6-9234-d204a0dd470f")
+	)
 	(text "x"
 		(exclude_from_sim no)
 		(at 234.188 32.512 0)
@@ -3593,6 +3744,16 @@
 		)
 		(uuid "97534578-f505-42f4-a5a7-19f659e23c0d")
 	)
+	(text "x"
+		(exclude_from_sim no)
+		(at 266.192 28.448 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "a4aac938-97c6-40bd-9514-fb49674d48d8")
+	)
 	(text "R4"
 		(exclude_from_sim no)
 		(at 240.538 25.146 0)
@@ -3602,6 +3763,16 @@
 			)
 		)
 		(uuid "bc31bffb-79f2-44f0-a630-8fb5257bb54b")
+	)
+	(text "R13\n"
+		(exclude_from_sim no)
+		(at 265.938 25.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6391337-6dbe-4eef-94b8-bbf2bbf08bab")
 	)
 	(text "x"
 		(exclude_from_sim no)
@@ -4315,6 +4486,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 87.63) (xy 246.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8b1de5-ceab-41cb-8377-080deb4aed96")
+	)
+	(wire
+		(pts
 			(xy 182.88 135.89) (xy 246.38 135.89)
 		)
 		(stroke
@@ -4392,6 +4573,16 @@
 			(type default)
 		)
 		(uuid "332a5e2b-d5bf-48f4-a145-bf1dc7bcdd84")
+	)
+	(wire
+		(pts
+			(xy 204.47 87.63) (xy 209.55 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373c216c-fb18-4036-8515-a956ba20db1f")
 	)
 	(wire
 		(pts
@@ -4535,6 +4726,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 86.36) (xy 204.47 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487bc8b3-231a-45de-8595-6da19f2a0f61")
+	)
+	(wire
+		(pts
 			(xy 204.47 31.75) (xy 204.47 34.29)
 		)
 		(stroke
@@ -4635,23 +4836,13 @@
 	)
 	(polyline
 		(pts
-			(xy 218.44 26.67) (xy 262.89 26.67)
+			(xy 218.44 26.67) (xy 269.24 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "59d8c15a-7d06-407c-9c4b-30fdd2904f49")
-	)
-	(wire
-		(pts
-			(xy 237.49 87.63) (xy 246.38 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59fbb4cf-85fd-4cb9-8d2e-cf1bdd352229")
 	)
 	(bus
 		(pts
@@ -4933,6 +5124,16 @@
 		)
 		(uuid "89a64de3-9576-4fd9-a7bb-7c1b43a63db3")
 	)
+	(polyline
+		(pts
+			(xy 262.89 22.86) (xy 262.89 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af3b1bc-7785-4e9b-a025-3496befce5a8")
+	)
 	(wire
 		(pts
 			(xy 113.03 67.31) (xy 113.03 66.04)
@@ -5095,7 +5296,7 @@
 	)
 	(polyline
 		(pts
-			(xy 218.44 30.48) (xy 262.89 30.48)
+			(xy 218.44 30.48) (xy 269.24 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7154,12 +7355,150 @@
 	)
 	(symbol
 		(lib_id "antmicroResistorsmisc:R_0R_0201")
+		(at 209.55 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b3ed6ef-5d03-4a36-a81e-bddf4256c2e2")
+		(property "Reference" "R13"
+			(at 208.28 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0201"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0201"
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 229.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0201-FX-0R00GLF"
+			(at 229.87 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 229.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 229.87 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 215.138 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "334eae41-72bf-4d4a-9818-4c25c2c81bc3")
+		)
+		(pin "2"
+			(uuid "cbda6107-bf65-45ca-9319-3d010da21273")
+		)
+		(instances
+			(project "antmicro-m2-oculink-adapter-hw"
+				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistorsmisc:R_0R_0201")
 		(at 181.61 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d1e15f8-1c22-43e4-8933-1ce68f136a8c")
 		(property "Reference" "R6"
@@ -7678,6 +8017,120 @@
 			(project ""
 				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_1mm_SMD")
+		(at 204.47 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7730ff17-a476-4703-9455-8f67d865b14f")
+		(property "Reference" "TP3"
+			(at 207.01 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_1mm_SMD"
+			(at 212.09 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_1mm"
+			(at 214.63 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point 1mm SMD"
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 219.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 222.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d546659d-28b8-4b8e-a275-52e4ff41bac0")
+		)
+		(instances
+			(project ""
+				(path "/b9cca87b-aef2-493b-be4f-d9e02584eafa"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -8580,7 +9033,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abe4b8ef-300f-45a6-a753-af4a2678905b")
 		(property "Reference" "R4"
@@ -8816,7 +9269,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b902f33e-ced8-4648-8fd7-d730f3ec398d")
 		(property "Reference" "R9"
@@ -8957,7 +9410,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c387c6f4-c626-40e6-aa57-a34b107d6749")
 		(property "Reference" "R12"

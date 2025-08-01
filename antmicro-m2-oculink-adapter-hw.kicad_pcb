@@ -207,6 +207,7 @@
 	(net 55 "/~{PERST}")
 	(net 56 "Net-(C1-Pad2)")
 	(net 57 "Net-(J2-V_{ACT}_TX_3V3)")
+	(net 58 "Net-(R13-Pad1)")
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "075a8130-6b22-4a09-9c2f-97a75aaddea6")
@@ -24079,7 +24080,7 @@
 		(descr "Resistor SMD 0201")
 		(tags "resistor SMD 0201")
 		(property "Reference" "R10"
-			(at -0.75 -2.45 180)
+			(at -1.01 0.43 180)
 			(layer "F.SilkS")
 			(uuid "08913b3d-48b9-43cb-bd11-a4b9203bcfeb")
 			(effects
@@ -24710,7 +24711,7 @@
 		(path "/c387c6f4-c626-40e6-aa57-a34b107d6749")
 		(sheetname "/")
 		(sheetfile "antmicro-m2-oculink-adapter-hw.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -0.925 -0.47)
 			(end 0.925 0.47)
@@ -26502,6 +26503,496 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "antmicro-footprints:R_0201"
+		(layer "F.Cu")
+		(uuid "adbd67b5-8878-40c2-916b-541b540070d2")
+		(at 146.82 92.63 -90)
+		(descr "Resistor SMD 0201")
+		(tags "resistor SMD 0201")
+		(property "Reference" "R13"
+			(at -1.14 -2.44 180)
+			(layer "F.SilkS")
+			(uuid "b97293c0-466b-4f37-b0c4-2bf56e5378c9")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "R_0R_0201"
+			(at 0 1.25 90)
+			(layer "F.Fab")
+			(uuid "89663478-b05b-477f-9ef8-17f1bf01c5eb")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify right top)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ffce733-c3a4-4ba2-a14c-bbf1f57a6703")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "SMD Chip Resistor"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2680e16b-de36-475e-b479-c00345be8cee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CR0201-FX-0R00GLF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad4d3e67-1e83-4b29-9fb6-849c10dbd6e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "279008ce-b009-4e91-a525-c097537ae3ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3046c55-7003-4f0a-9b2f-805f2eae04ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1542f4fd-017f-4bb7-b450-19abec282e82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Val" "0R"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "688882da-e672-4e94-9a11-eebb85ba7d4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a6d62fe-ede5-4d83-bb25-1dd0bf5ce6e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4b3ed6ef-5d03-4a36-a81e-bddf4256c2e2")
+		(sheetname "/")
+		(sheetfile "antmicro-m2-oculink-adapter-hw.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -0.7 -0.35)
+			(end 0.7 0.35)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "15f96488-595e-416c-83ab-261a17c362b9")
+		)
+		(fp_rect
+			(start -0.3 -0.15)
+			(end 0.298 0.148)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "a54ec6a3-b2b4-4fa0-83e5-c9332e3dce6b")
+		)
+		(fp_rect
+			(start -0.3 -0.15)
+			(end 0.298 0.148)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.5")
+			(uuid "210c2c82-b0d3-4b6c-a5ab-39f07979dd76")
+		)
+		(fp_line
+			(start -0.3 0.148)
+			(end -0.3 -0.15)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "b960feac-8702-4627-abfb-1d602df9ec66")
+		)
+		(fp_line
+			(start -0.25 0.148)
+			(end -0.3 0.148)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "eb4cb52a-085b-427f-b206-3fc38db728a0")
+		)
+		(fp_line
+			(start -0.202 0.148)
+			(end -0.25 0.148)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "1c7b0039-b3a2-431c-9a98-3507761784cd")
+		)
+		(fp_line
+			(start -0.202 0.148)
+			(end 0.2 0.148)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "47226bfd-8876-4a3e-8ef0-f2d0a3ec8182")
+		)
+		(fp_line
+			(start 0.2 0.148)
+			(end 0.2 -0.15)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "9e675b75-45fe-4ab1-b46b-70ceb330df1b")
+		)
+		(fp_line
+			(start 0.248 0.148)
+			(end 0.2 0.148)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "91d51fea-c38a-4380-a36a-91587ebaadf3")
+		)
+		(fp_line
+			(start 0.248 0.148)
+			(end 0.298 0.148)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "10f7abc9-bafd-4084-806c-ccd41c0803b5")
+		)
+		(fp_line
+			(start 0.248 0.148)
+			(end 0.248 0.1)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "b419a6b0-dcb4-4ca9-9167-a1eeb0eaf459")
+		)
+		(fp_line
+			(start 0.298 0.148)
+			(end 0.298 -0.15)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "d05bcc44-04b8-43f1-8033-f5f4a5e0e6b7")
+		)
+		(fp_line
+			(start -0.25 0.1)
+			(end -0.25 0.148)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "18e08a26-3ff2-49a7-a9e7-8206cf375d5a")
+		)
+		(fp_line
+			(start -0.202 0.1)
+			(end -0.25 0.1)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "9745b732-a958-4f0c-ba3d-06a2ab219659")
+		)
+		(fp_line
+			(start -0.202 0.1)
+			(end -0.202 -0.102)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "d47d3b48-c542-4cab-bbef-1925b7700f42")
+		)
+		(fp_line
+			(start 0.2 0.1)
+			(end 0.2 -0.102)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "4b99399d-26b5-4ef7-9257-4315cec29bf4")
+		)
+		(fp_line
+			(start 0.248 0.1)
+			(end 0.2 0.1)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "c97a1650-8910-461d-a593-406181f5e701")
+		)
+		(fp_line
+			(start -0.25 -0.102)
+			(end -0.202 -0.102)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "ca8c22a0-3fd8-45bc-9f16-0329bedd552b")
+		)
+		(fp_line
+			(start 0.2 -0.102)
+			(end 0.248 -0.102)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "23384ee3-6d4b-4ef0-bb60-e6d2cd662179")
+		)
+		(fp_line
+			(start 0.248 -0.102)
+			(end 0.248 -0.15)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "c4c74d72-1c9c-4bbd-a5a3-368e4b2ecd80")
+		)
+		(fp_line
+			(start -0.25 -0.15)
+			(end -0.25 -0.102)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "a1628e01-2de7-4e46-b28f-1c7d648feaa0")
+		)
+		(fp_line
+			(start -0.25 -0.15)
+			(end -0.3 -0.15)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "c0c6d23b-6929-48ed-bf0c-ef88116d7f50")
+		)
+		(fp_line
+			(start -0.202 -0.15)
+			(end -0.202 0.148)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "ed6fa900-476b-4f17-b487-13c06d21f2cb")
+		)
+		(fp_line
+			(start -0.202 -0.15)
+			(end -0.25 -0.15)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "c07e2a38-2932-4a11-b843-03cb9e2e19a2")
+		)
+		(fp_line
+			(start 0.2 -0.15)
+			(end -0.202 -0.15)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "26002a7c-5470-4795-94d3-b7fabd4f2dc3")
+		)
+		(fp_line
+			(start 0.248 -0.15)
+			(end 0.2 -0.15)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "7e38ebef-7a0b-4644-907b-3c678e1b20a1")
+		)
+		(fp_line
+			(start 0.248 -0.15)
+			(end 0.298 -0.15)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "b66c5625-4f81-482d-a252-97242adf9bbd")
+		)
+		(fp_text user "License: Apache-2.0"
+			(at -0.71 4.25 90)
+			(layer "F.Fab")
+			(uuid "407ca741-bb65-4be4-9455-0463725612ff")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify right top)
+			)
+		)
+		(fp_text user "Author: Antmicro"
+			(at -0.71 5.25 90)
+			(layer "F.Fab")
+			(uuid "81adf3f3-185c-4704-9ca1-c399fd758c7e")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify right top)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.71 3.25 90)
+			(layer "F.Fab")
+			(uuid "cca0067b-0c64-4573-a13f-460cb1f107e0")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify right top)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.346 0 270)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "2a678e08-4e15-4d76-b100-a332855e8615")
+		)
+		(pad "" smd roundrect
+			(at 0.344 0 270)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "1bb12160-73b6-4a21-a52c-f4a48c3070a9")
+		)
+		(pad "1" smd roundrect
+			(at -0.32 0 270)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 58 "Net-(R13-Pad1)")
+			(pintype "passive")
+			(uuid "e3b68248-53db-4d65-8ff8-12530a7836af")
+		)
+		(pad "2" smd roundrect
+			(at 0.32 0 270)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 54 "/~{CPRSNT}")
+			(pintype "passive")
+			(uuid "beabe309-e49f-4afa-96ea-b7f0939a26a1")
+		)
+		(embedded_fonts no)
+		(model "${ANT3DMDL}/R_0201.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "antmicro-footprints:TP_SMD_1.5mm"
 		(layer "F.Cu")
 		(uuid "d49df72b-d183-4f0f-8126-6eb12e8da7c9")
@@ -26853,6 +27344,172 @@
 				(prefer_zone_connections no)
 			)
 			(uuid "d622ecf0-5178-48e0-8396-684c84f5e654")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "antmicro-footprints:TP_SMD_1mm"
+		(layer "F.Cu")
+		(uuid "f145fbb3-deed-4805-969e-6a56f784a792")
+		(at 149.35 90.84)
+		(property "Reference" "TP3"
+			(at -0.32 -0.61 0)
+			(layer "F.SilkS")
+			(uuid "5d8ca687-3cbc-4f82-b6a3-7339f92ae3d0")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP_1mm_SMD"
+			(at 0 1.4 0)
+			(layer "F.Fab")
+			(uuid "7cf7cd73-5fef-4655-9ad0-98110e046b43")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02cacf0a-c7a1-4dd4-a9d9-ae5e43c0babb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Test point 1mm SMD"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20e84e0c-d3cb-43ab-814a-abfffe8f9d64")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3c964dd-44e9-4054-a151-d8572a2b43ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45d71759-fbab-4938-b6fb-4289b5c22581")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "321e8da1-f482-42c2-86b8-5e71c5156214")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21cf6d11-4500-43ee-a152-594c236ee73e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/7730ff17-a476-4703-9455-8f67d865b14f")
+		(sheetname "/")
+		(sheetfile "antmicro-m2-oculink-adapter-hw.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.6 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "685392c5-50bc-4ff0-be3b-30870eb9ff8e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.5 2.8 0)
+			(layer "F.Fab")
+			(uuid "7cb62837-dd93-4e80-bf81-60ae5c18ca4d")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "Author: Antmicro"
+			(at -0.5 4 0)
+			(layer "F.Fab")
+			(uuid "b8c003d2-798b-458a-af39-c53f93a2c525")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "License: Apache-2.0"
+			(at -0.5 5.2 0)
+			(layer "F.Fab")
+			(uuid "dc0b2b20-41af-45ef-83b9-b68a8b0f74c7")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(net 58 "Net-(R13-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "e8a1803f-dacf-4c8e-b439-cea78a172f51")
 		)
 		(embedded_fonts no)
 	)
@@ -34617,7 +35274,7 @@
 		(path "/4d1e15f8-1c22-43e4-8933-1ce68f136a8c")
 		(sheetname "/")
 		(sheetfile "antmicro-m2-oculink-adapter-hw.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_rect
 			(start -0.7 0.35)
 			(end 0.7 -0.35)
@@ -35115,7 +35772,7 @@
 		(path "/b902f33e-ced8-4648-8fd7-d730f3ec398d")
 		(sheetname "/")
 		(sheetfile "antmicro-m2-oculink-adapter-hw.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -0.7 0.35)
 			(end 0.7 -0.35)
@@ -35613,7 +36270,7 @@
 		(path "/abe4b8ef-300f-45a6-a753-af4a2678905b")
 		(sheetname "/")
 		(sheetfile "antmicro-m2-oculink-adapter-hw.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_rect
 			(start -0.7 0.35)
 			(end 0.7 -0.35)
@@ -52620,6 +53277,18 @@
 			)
 		)
 	)
+	(gr_text "Rev. 1.0.1 07/2025\n"
+		(at 147.975 78.65 0)
+		(layer "F.Mask")
+		(uuid "4220ba97-0bc7-4986-83ab-611d576ff542")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "PCB SHA: ########"
 		(at 137.56 78.01 90)
 		(layer "B.SilkS")
@@ -60046,6 +60715,14 @@
 		(uuid "d9d13775-4f5c-4239-9103-011d89eb9d9e")
 	)
 	(segment
+		(start 146.82 92.95)
+		(end 146.82 93.507255)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 54)
+		(uuid "753645ca-fa89-427b-b13c-70277e296a3b")
+	)
+	(segment
 		(start 146.755002 93.597581)
 		(end 146.755002 93.636008)
 		(width 0.22)
@@ -60068,6 +60745,14 @@
 		(layer "F.Cu")
 		(net 54)
 		(uuid "9aa92ddb-918d-484b-a8ff-bca84bb7156f")
+	)
+	(segment
+		(start 146.82 93.507255)
+		(end 146.742338 93.584917)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 54)
+		(uuid "a9e5a760-e290-48bf-bcc9-f482641cc630")
 	)
 	(via
 		(at 146.742338 93.584917)
@@ -61091,6 +61776,22 @@
 		(layer "B.Cu")
 		(net 57)
 		(uuid "a3976941-79a0-4ec8-a006-f4623a27c0d5")
+	)
+	(segment
+		(start 146.82 92.31)
+		(end 147.88 92.31)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 58)
+		(uuid "03bb13c8-930d-4a7e-9503-29ccf2d78837")
+	)
+	(segment
+		(start 149.35 90.84)
+		(end 147.88 92.31)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 58)
+		(uuid "221229b7-9636-4de4-9d36-01f91c0eb080")
 	)
 	(zone
 		(net 1)
@@ -63343,12 +64044,12 @@
 		(members "aa263684-47c3-4837-b966-fcb6967edde3" "feb05e20-d868-4e90-b98a-b45bde3c1e0e")
 	)
 	(group ""
-		(uuid "99c01e39-071d-4552-9d08-41d38792bba1")
-		(members "bc8b7d5a-438c-4f86-a278-5d3dc5dc94d1")
-	)
-	(group ""
 		(uuid "6826bd56-62da-4577-8117-56025bbf0624")
 		(members "06556173-ffed-4031-9924-a6c8c4b07c0c" "16721270-387f-447d-a762-376c3936303d")
+	)
+	(group ""
+		(uuid "7b2e42d9-c04a-4ad8-818e-3f6315fab138")
+		(members "4220ba97-0bc7-4986-83ab-611d576ff542" "bc8b7d5a-438c-4f86-a278-5d3dc5dc94d1")
 	)
 	(generated
 		(uuid "a924c410-60c9-419f-a81b-4ce93f3d2653")
