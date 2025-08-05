@@ -25269,7 +25269,7 @@
 			(at 0.1 -3 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ac3993b7-3313-468d-8a19-7c8f6b19eb5a")
+			(uuid "d3905793-9446-42be-8789-7eb271ebc76c")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -25282,7 +25282,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fa3c17d-c665-4d90-8888-1ef184865285")
+			(uuid "d12f53dc-48fe-4f42-bad3-617891acb094")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -25295,7 +25295,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d0dae1f-01bd-429d-add1-ee32ad5728b2")
+			(uuid "76efb067-f052-4aaf-9889-6d28fd52d4f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25307,7 +25307,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56aa46ea-e5b7-4d31-8606-e16b8641c03c")
+			(uuid "d01bad5c-ebc5-4feb-9047-248f3355725a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25315,7 +25315,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_poly
 			(pts
 				(xy 3.455 0.778) (xy 3.172 0.778) (xy 3.172 -0.9) (xy 3.455 -0.9) (xy 3.455 0.778)
@@ -25981,7 +25981,7 @@
 			(at 0 -3.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "edabb1ca-ba6a-4a7c-8b54-da095a6f0331")
+			(uuid "8a302316-7c42-4bfa-a88f-bcbc71c4e6a7")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -25993,7 +25993,7 @@
 		(property "Value" "OSHW-Logo_5.7x6mm_Mask"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "07fae5c3-abc4-4f39-967e-3bf87fe6c440")
+			(uuid "8bb8d25b-14f6-4f8d-b8d2-9eb900aba41c")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -26006,7 +26006,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f3b978f-ff3e-44c9-a2dc-94bea8c4d74e")
+			(uuid "f67cbde6-cbc4-46fa-bada-740898364174")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26018,7 +26018,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6871595b-8a10-4fc1-a323-257467acfc62")
+			(uuid "dbaf0b95-f5f0-4f65-ad2f-0ea399a0b536")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26026,7 +26026,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 1.799 1.458) (xy 1.842 1.471) (xy 1.87 1.487) (xy 1.879 1.501) (xy 1.877 1.516) (xy 1.86 1.541)
@@ -27523,7 +27523,7 @@
 			(at 0 -3.4 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3910b8a8-570a-40e0-acd4-e1795dd31f39")
+			(uuid "df314a6e-8a43-4632-b359-4f428cc96c7f")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -27535,7 +27535,7 @@
 		(property "Value" "OSHW-Logo_5.7x6mm_Copper"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "c4c6fae4-0563-4ee8-a745-db53acf94797")
+			(uuid "b5f4b9b9-0186-4d79-a264-f39b0c46fd42")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -27548,7 +27548,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f3e96c0-4e00-4c5a-876d-d7a12fe349e6")
+			(uuid "06104c54-e1e5-4cb9-823b-3b2de9717d20")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27560,7 +27560,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3a0e426d-7baa-4980-8e9d-becf1461efdc")
+			(uuid "a633ffa9-e743-4c0b-9596-08ae7d38f6af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27568,7 +27568,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_poly
 			(pts
 				(xy 1.799 1.458) (xy 1.842 1.471) (xy 1.87 1.487) (xy 1.879 1.501) (xy 1.877 1.516) (xy 1.86 1.541)
@@ -64028,7 +64028,7 @@
 		)
 	)
 	(group ""
-		(uuid "1dc28d4f-082f-4ea4-b2e3-79a42624fc79")
+		(uuid "1afb5cc2-0a6d-48d7-8a66-5e646caacfeb")
 		(members "aa263684-47c3-4837-b966-fcb6967edde3" "feb05e20-d868-4e90-b98a-b45bde3c1e0e")
 	)
 	(group ""
