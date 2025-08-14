@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title " M.2 to OCuLink adapter")
-		(date "2025-07-09")
-		(rev "1.0.1")
+		(date "2025-08-14")
+		(rev "1.0.2")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
 	)
